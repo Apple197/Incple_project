@@ -1,0 +1,1 @@
+console.log('Thanks for open console            Thanks for visit incple');

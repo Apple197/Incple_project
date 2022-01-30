@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" l>
+    <title>Login Form</title>
+     <link rel="stylesheet" href="style.css">
+     <style>
+     *{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+     }
+  input{
+    border: 1px solid #eee;
+    width: 300px;
+    padding: 10px 0 10px 20px;
+    font-size: 15px;
+    font-family: var(--poppins);
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+  }
+  input:focus{
+    border: 2px solid var(--primary);
+    outline: none;
+    
+  }
+  .sum{
+    background: var(--primary);
+    padding: 7px;
+    width: 100px;
+    margin: 20px auto 0 auto;
+    color: white;
+    border-radius: 30px;
+    border: none;
+   outline: none;
+  }
+  .sum:hover{
+    width: 200px;
+    background: var(--secondary);
+    transition: 0.5s;
+  }
+  fieldset{
+    border: 2px solid #eee;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px;
+    font-size: 25px;
+    font-family: var(--heading);
+    background: white;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  body{
+    background: #f4f4f4;
+  }
+legend{
+    padding: 10px
+  }
+     </style>
+  </head>
+  <body>
+    <div class="container">
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Login</legend>
+        <input type="email" name="email" required placeholder="Enter email" id="email"/>
+        <input type="password" name="password" required placeholder="Enter password" id="password"/>
+        <input type="submit" value="Login" class="sum" />
+      </fieldset>
+    </form>
+    </div>
+  </body>
+</html>

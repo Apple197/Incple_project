@@ -1,0 +1,401 @@
+/* importing fonts place here okay bro ============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+/* variable start here okay nice bro =========================== */
+
+:root{
+  --primary: #5370EA;
+  --secondary: #182D88;
+  --light: #F7F5FA;
+  --gray: #E4DFEA;
+  --poppins: 'Poppins', sans-serif;
+  --heading: 'Montserrat', sans-serif;
+}
+/* navigation styling start here okay ============================ */
+.Logo{
+  width: 100px;
+}
+.bg-white{
+  background: white;
+}
+.nav-link, .dropdown-item{
+  font-family: var(--poppins);
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+}
+.navbar-toggler, .dropdown-menu{
+  border: none;
+}
+.active{
+  font-weight: 500;
+}
+.dropdown-divider{
+  visibility: hidden;
+}
+/* global styling start here okah bro============================== */
+.img-cen{
+  display: block;
+  margin: 0 auto;
+}
+p{
+  font-size: 15px;
+  font-family: var(--poppins);
+}
+h1, h2, h3{
+  font-family: var(--heading);
+  font-weight: 700;
+}
+.btn-small{
+  font-size: 15px;
+  font-family: var(--poppins);
+  border: none;
+  background: var(--primary); 
+  color: #fff;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+}
+.btn-small:hover{
+  background: var(--secondary);
+  color: white;
+  box-shadow: 2px 2px 7px gray;
+}
+/* anchor button =============================== */
+.btn-text{
+  text-shadow: 0.1px 0.1px black;
+}
+/* new database okay ================================ */
+.imp{
+  color: var(--primary);
+}
+.imp-gred{
+  background: linear-gradient(90deg, #00ff87 0%, #60efff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.sm-h{
+  font-size: 20px;
+  font-weight: 400;
+}
+.ver-align{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.p-grey{
+  color: #837C7C;
+}
+.img-90{
+  width: 100%;
+}
+.col-2-icon{
+  width: 25px;
+  margin-bottom: 10px;
+}
+.card-sec-img{
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+.col-card {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.card-icon{
+  width: 25px;
+  margin-bottom: 10px;
+}
+.card-sec{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-h{
+  margin-right: 20px;
+}
+.sig-h{
+  text-align: center;
+}
+.sig-1{
+  margin-bottom: 50px;
+}
+.col-sig:hover{
+  background: var(--light);
+}
+.sig-link{
+  color: var(--primary);
+  text-decoration: none;
+  font-family: var(--poppins);
+  font-size: 15px;
+  font-weight: 700;
+}
+.row-footer{
+  padding: 50px 0 50px 0;
+  background: #efefef;
+}
+.footer-logo{
+  width: 120px;
+  margin: 0 0 0 20px;
+}
+.col-fot{
+  margin-top: 20px;
+}
+.foot-men li, .foot-imp li, .con li{
+  list-style: none;
+  font-size: 15px;
+  font-family: var(--poppins);
+}
+.foot-men a, .foot-imp a, .con a{
+  text-decoration: none;
+  color: black;
+}
+/* web common data base contact page styling ======================= */
+
+.cont-img{
+  width: 90%;
+  margin-bottom: 20px;
+}
+.cont-h{
+  text-align: center;
+}
+.cont-row{
+  padding:100px 0;
+}
+.cont-in{
+  width: 90%;
+  outline: none;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  padding:7px 15px;
+  font-family: var(--poppins);
+  font-size: 15px;
+  margin: 10px;
+}
+.cont-in:focus, .cont-text:focus{
+  border: 2px solid var(--primary);
+}
+.cont-btn:hover{
+  background: var(--secondary);
+}
+.cont-text{
+  width: 90%;
+  height: 90px;
+  outline: none;
+  border: 1px solid #efefef;
+  padding:7px 15px ;
+  border-radius: 10px;
+  font-family: var(--poppins);
+  font-size: 15px;
+  margin: 10px;
+}
+.cont-btn{
+  background: var(--primary);
+  outline: none;
+  font-family: var(--poppins);
+  border: none;
+  margin:10px;
+  width: 150px;
+  padding:7px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.mail{
+  font-size: 20px;
+}
+.lin{
+  font-weight: 700;
+  font-size: 15px;
+  font-family: var(--poppins);
+  color: var(--primary);
+  text-decoration: none;
+}
+.lin:hover{
+  padding: 7px 20px;
+  background: var(--light);
+}
+.col-text{
+  width: 90%;
+  margin: 50px 10px;
+  text-align: center;
+}
+.border{
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.col-form{
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+}
+/* responsibility for web ================================= */
+
+@media screen and (max-width: 768px){
+  .none{
+    display: none;
+  }
+  .p-mob{
+    text-align: center;
+  }
+  .h-mob{
+    text-align: center;
+  }
+  .row-top{
+    padding: 50px 0 30px 0;
+  }
+  .row-sec{
+    padding: 50px 20px 50px 20px;
+  }
+  .bg-col{
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+ box-shadow: 0 .50rem 1rem rgba(0,0,0, .15);
+}
+.bg-col:hover{
+  box-shadow: 0 .125rem .25rem rgba(0,0,0, .075);
+}
+.row-card{
+  padding: 20px 0 50px 0;
+}
+.col-card{
+  padding: 10px;
+  border-radius: 10px;
+  margin:10px;
+  text-align: left;
+  box-shadow: 0 .50rem 1rem rgba(0,0,0,.15);
+}
+.col-card:hover{
+  box-shadow: 0 .125rem .25rem rgba(0,0,0, .075);
+}
+.card-sec{
+  margin: 10px 10px;
+}
+.card-h{
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+.sig-row{
+  margin:50px 20px ;
+}
+.col-sig{
+  padding: 10px;
+  margin: 0 10px 20px 10px;
+  text-align: left;
+  background: white;
+  border-radius: 10px;
+}
+}
+/* for computer okay =============================== */
+
+@media screen and (min-width: 769px){
+  .mode{
+    display: none;
+  }
+ .row-top{
+   padding: 50px 0 50px 0;
+ }
+ .row-sec{
+   padding: 50px 0 50px 0;
+ }
+ .bg-col {
+   background: white;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+   box-shadow: 0 .50rem 1rem rgba(0,0,0, .15);
+ }
+ .bg-col:hover{
+   box-shadow: 0 .125rem .25rem rgba(0,0,0, .075);
+}
+ .row-card {
+   padding: 75px 0 50px 0;
+ }
+ .sig-row{
+   padding: 50px 0;
+ }
+ .col-sig{
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+   border-radius: 0;
+ }
+ .col-card{
+  padding: 10px;
+  border-radius: 10px;
+  margin:10px;
+  text-align: left;
+  box-shadow: 0 .50rem 1rem rgba(0,0,0,.15);
+}
+.col-card:hover{
+  box-shadow: 0 .125rem .25rem rgba(0,0,0, .075);
+}
+}
+/* */
+
+  .sign-con{
+     background-image: url("../assets/ocean.jpg");
+      background-repeat: no-repeat;
+      background-size: 100vh 100vw;
+      background: yellowgreen;
+    }
+    
+  /* Sign Up form design start here ======== =================================  */
+  .form-sign{
+   box-shadow:  0 .125rem .25rem rgba(0, 0, 0, .075);
+   width: 90%;
+   max-width: 500px;
+   margin: 100px auto;
+   padding: 30px 0;
+  }
+  .cont-i::placeholder{
+    color: silver;
+  }
+  .cont-i{
+    width: 80%;
+    margin: 10px 0 0 0;
+    padding: 7px 15px;
+    font-family: var(--poppins);
+    border: 1px solid #efefef;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  .cont-i:focus{
+    border: 1px solid var(--primary);
+  }
+  .signup{
+    margin: 0 auto;
+    display: block;
+    display: grid;
+    place-items: center;
+  }
+  .Logo-space{
+    margin-bottom: 20px;
+  }
+.sign-up_btn{
+    background: var(--primary);
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--poppins);
+    font-size: 15px;
+    color: #fff;
+    padding: 7px 15px;
+    margin-top: 20px;
+  }
+  .sign-up_btn:hover{
+    background: var(--secondary);
+  }
